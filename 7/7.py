@@ -42,5 +42,5 @@ with open('/Users/milk/Development/aoc2022/7/input.txt') as file:
     print('need to free up:', 30000000 - (70000000 - dir_size_map['/']))
     need_to_free = 30000000 - (70000000 - dir_size_map['/'])
 
-    print(min([value for key, value in dir_size_map.items() if value >= need_to_free]))
+    print('part 2:', min([value for key, value in dir_size_map.items() if value >= need_to_free]))
         
